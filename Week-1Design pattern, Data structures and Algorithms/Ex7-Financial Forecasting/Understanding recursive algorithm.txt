@@ -1,0 +1,15 @@
+Recursion is a technique where a function calls itself until a base condition is met.
+It’s useful for problems that can be broken down into smaller subproblems of the same type.
+
+Example: Predicting financial growth
+If you know the value in year n and the growth rate,
+You can get year n+1 as:
+futureValue=currentValue×(1+growthRate)
+Then repeat for the required years.
+
+Pros:
+Simplifies code for problems with repeated similar steps.
+
+Cons:
+Can be slow if not optimized (due to repeated calculations).
+Risk of stack overflow for deep recursion.

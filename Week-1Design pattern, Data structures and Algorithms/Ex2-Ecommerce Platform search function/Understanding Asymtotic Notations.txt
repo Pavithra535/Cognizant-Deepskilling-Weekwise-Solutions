@@ -1,0 +1,18 @@
+Big O Notation
+
+Big O notation describes how the runtime of an algorithm grows as the size of the input (n) increases.
+It focuses on the dominant term in the runtime function, ignoring constants and less significant terms.
+It helps compare algorithms regardless of machine or programming language differences.
+
+Search Operations – Scenarios
+
+Best Case: The ideal situation. The element is found immediately (e.g., first position).
+
+Average Case: The expected scenario over many searches.
+
+Worst Case: The slowest possible time (e.g., element is at the last position or not present at all).
+
+Algorithm	Best Case	Average Case	Worst Case
+Linear Search	O(1)	         O(n)	            O(n)
+Binary Search	O(1)	       O(log n)	          O(log n)
+

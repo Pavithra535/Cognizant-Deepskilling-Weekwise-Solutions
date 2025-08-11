@@ -1,0 +1,11 @@
+Aspect	                   Linear Search	                 Binary Search
+Time Complexity	            O(n)	                           O(log n)
+Data Requirement	Works on unsorted or sorted	        Works only on sorted data
+Best for	        Small datasets, frequent updates	Large datasets, less frequent updates
+Performance	        Slower for large datasets	        Much faster for large datasets
+
+Recommendation for E-commerce:
+
+For small product lists or lists that change very often → Linear Search may be simpler.
+For large datasets where search speed is critical and updates are less frequent → Binary Search is far more efficient.
+In production, e-commerce platforms often use advanced search indexing (e.g., B-Trees, Tries, or ElasticSearch) for even faster results.

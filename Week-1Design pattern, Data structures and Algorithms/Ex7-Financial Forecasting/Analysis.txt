@@ -1,0 +1,10 @@
+Time Complexity:
+This recursion makes one call per year → O(n) time complexity.
+
+Space complexity is also O(n) because of the call stack.
+
+Optimization – Avoid Excessive Computation:
+Memoization: Store results for given inputs so you don’t recompute them.
+Convert to Iterative:
+Iteration avoids the call stack overhead.
+Same logic, but runs in O(n) time and O(1) space.
