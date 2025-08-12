@@ -1,0 +1,21 @@
+1. Java Persistence API (JPA)
+What it is: A specification (JSR 338) for persisting, retrieving, and managing data from Java objects to a database.
+Key point: It’s just a set of interfaces and annotations — no actual database interaction code inside it.
+Example providers: Hibernate, EclipseLink, OpenJPA.
+Analogy: JPA is like a blueprint for building a house. It defines what a “door” and “window” should be but doesn’t build them.
+
+2. Hibernate
+What it is: An ORM (Object-Relational Mapping) framework that implements JPA.
+Role: Maps Java objects to database tables and handles SQL generation, caching, lazy loading, etc.
+Extra: Hibernate existed before JPA; JPA later standardized many concepts Hibernate already had.
+Analogy: Hibernate is the construction company that follows the JPA blueprint to actually build the house.
+
+3. Spring Data JPA
+What it is: A Spring framework module that sits on top of JPA (and indirectly Hibernate) to reduce boilerplate code.
+Role:
+Eliminates manual DAO code.
+Automatically provides CRUD operations.
+Supports custom query methods via method names or @Query.
+Handles transaction management automatically.
+Extra: Spring Data JPA does not implement JPA itself — it relies on a JPA provider like Hibernate.
+Analogy: Spring Data JPA is the real estate agent who gives you a fully ready-to-use house without you worrying about construction details.
